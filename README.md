@@ -2,6 +2,8 @@
 
 A simplified financial dashboard showcasing the latest features of Next.js 14.
 
+![Acme Financial Dashboard Thumbnail](https://i.ibb.co/VgYR7P6/hero-desktop.png)
+
 ## Table of Contents
 
 - [About](#about)

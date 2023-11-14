@@ -1,8 +1,8 @@
-import styles from '@/app/ui/home.module.css';
-import AcmeLogo from '@/app/ui/acme-logo';
-import { lusitana } from '@/app/ui/fonts';
-import Link from 'next/link';
-import Image from 'next/image';
+import styles from "@/app/ui/home.module.css";
+import AcmeLogo from "@/app/ui/acme-logo";
+import { lusitana } from "@/app/ui/fonts";
+import Link from "next/link";
+import Image from "next/image";
 
 export default function Page() {
   return (
@@ -15,13 +15,9 @@ export default function Page() {
           <p
             className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}
           >
-            <strong>Welcome to Acme.</strong> This is the example for the{' '}
-            <a href="https://nextjs.org/learn/" className="text-blue-500">
-              Next.js Learn Course
-            </a>
-            , brought to you by Vercel.
+            <strong>Welcome to Acme.</strong> A simplified version of the
+            financial dashboard that uses all the latest Nextjs14 features.
           </p>
-          <div className={styles.shape}></div>
           <Link
             href="/login"
             className="flex items-center gap-5 self-start rounded-lg bg-blue-500 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
